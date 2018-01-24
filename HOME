@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<!-- stylesheet-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>De Mode Draad</title>
+</head>
+
+<body>
+
+<!-- menu-->
+    <header id="topheader">
+<ul>
+     <li><img src="img/modedraad.jpg" alt=""></li>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="over.html">Over</a></li>
+    <li><a href="detas.html">De tas</a></li>
+    <li><a href="aandeslag.html">Aan de slag</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+
+ <!--   <form action="" method="" id="search">
+					<input type="text" class="search" name="search" placeholder="find stuff!">
+					<input type="submit" class="button" value="go!">
+				</form>
+-->
+    </header>
+<!-- header-->
+    <div id="wrapper" class="container">
+
+	<!-- header image
+
+			<img src="img/banner.jpg" alt="">      -->
+        <header id="bigimg">
+        <!--pijltjes-->
+
+        <!--foto 1-->
+        <div class="w3-display-container mySlides">
+     <img src="img/banner.jpg" >
+    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+
+  </div>
+</div>
+       <!--foto 2-->
+<div class="w3-display-container mySlides">
+  <img src="img/banner2.jpg" >
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+
+  </div>
+</div>
+       <!--foto 3-->
+<div class="w3-display-container mySlides">
+  <img src="img/banner.jpg">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+
+  </div>
+  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+		</header>
+
+
+	<nav id="bigmenu">
+				<ul>
+					<li id="menu1"><a href="#">Over</A>
+						<p>De modedraad heeft als missie om ervoor te zorgen dat mensen slow fashion boven fast fashion verkiezen.
+                        Dit probeert de Mode Draad door consument bewuster te maken van de fast fashion en zorgen dat ze beter gaan consumeren
+                        door tips en informatie te geven over de mode industrie.  </p>
+					</li>
+					<li id="menu2"><a href="#">Tas bestellen</A>
+						<p>De tassen worden alleen maar gemaakt van 100% gerecycled spijkerstof.
+                        Je kunt ook zelf een oude spijkerbroek of jack naar ons toesturen, zodat deze weer een nieuw leven krijgt.
+                        De tassen van De Mode Draad zijn authentiek en je zal nooit iemand tegenkomen met dezelfde tas. </p>
+					</li>
+					<li id="menu3"><a href="#">Aan de slag</A>
+						<p>Er moet veel verandering komen in de kledingindustrie, en de Mode Draad gelooft dat dit het beste lukt als we beginnen bij onszelf.
+                         Wil je zelf van tweedehands stoffen een tas maken? Of wil je weten waar je op moet letten wanneer
+                        je duurzame kleding gaat kopen? Lees dan hier verder.  </p>
+					</li>
+				</ul>
+			</nav>
+
+
+
+    	<!-- hoofdtekst -->
+				<div class="home">
+
+            <div class="image">
+             <h1>De tas</h1>
+            <img src='img/plant.jpg'>
+                  </div>
+				<!-- h1, h2, p -->
+                 <H2>Waarom de Mode Draad?</H2>
+				<p>Per Nederlander wordt er gemiddeld €722 euro uitgegeven aan kleding per jaar, en met zijn alleen geven we 12,3 miljard uit aan kleding.
+                Vrouwen kopen gemiddeld 21 kledingstukken per persoon per jaar. Door de grote kledingstroom en het meegaan met de verschillende trends wordt er erg veel kleding geproduceerd.
+                Er wordt te veel kleding gemaakt wat slecht is voor het milieu en arbeiders moeten steeds harder werken met slechte arbeidsomstandigheden.
+                Kleding dient niet meer alleen als functie om iets aan te hebben, maar laat jouw stijl zien, wie je bent, en of je mee doet aan de laatste trends.
+                Gelukkig wordt duurzaamheid ook steeds meer een trend.</p>
+                <p>Arbeiders in de kledingindustrie krijgen een erg laag loon, moeten lange dage werken en wanneer ze overwerken krijgen ze meestal deze uren niet uitbetaald.
+                Ook zorgt de grote productie ervoor dat we zitten met een overschot aan kleding. Hieraan wordt erg veel water en energie verspilt en er komen veel giftige stoffen vrij door de verf en chemicaliën die gebruikt worden.
+                Verder word ook nog eens al deze kleding getransporteerd vanuit verre landen wat zorgt voor veel bijbehorende vervuiling.</p>
+                <p>Wanneer deze kleding is aangekomen wordt ook nog eens 30% van al deze kleding verbrand. Vooral luxemerken doen dit erg veel, aangezien ze niet hun reputatie willen beschadigen met kleding dat in de winkels wordt gehangen dat alweer uit de mode is.
+Hier moet verandering in komen en daarom ben ik de Mode Draad gestart. Een campagne om mensen bewust te maken dat de kledingindustrie meer kwaad dan goed doet.</P>
+
+				</div>
+
+        <!-- footer -->
+			<footer>
+				<div class= "medium">
+					<ul class="left">
+						<li class="tittle">De Mode Draad</li>
+						<li><a href="#">Over</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Koop een tas</a></li>
+					</ul>
+					<ul class="middle">
+						<li class="tittle">Volg ons</li>
+						<li class="twitter"><a href="#">Instagram</a></li>
+						<li class="fb"><a href="#">Facebook</a></li>
+						<li class="pinterest"><a href="#">Pinterest</a></li>
+					</ul>
+					<ul class="right">
+						<li class="tittle">Contact</li>
+						<li><p> Grote Breeken 93</p></li>
+						<li><p> 6665 HA Driel</p></li>
+						<li><p> 0683794240</p></li>
+					</ul>
+				</div>
+			</footer>
+    </div>
+</body>
+
+</html>
